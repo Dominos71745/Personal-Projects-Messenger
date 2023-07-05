@@ -1,0 +1,20 @@
+.chat-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  width: fit-content;
+  padding: 10px;
+  height: 2.5rem;
+}
+
+.chat-message.right {
+  color: white;
+  background-color: #00b2ff;
+  margin-right: 10px;
+}
+
+.chat-message.left {
+  background-color: #e4e4e4;
+  margin-left: 10px;
+}

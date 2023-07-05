@@ -1,0 +1,62 @@
+.form-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align items at the bottom */
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 30rem;
+  height: 40rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.form-bg form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-end; /* Align items at the bottom */
+}
+
+.form-bg input {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #dddddd;
+  padding: 15px;
+}
+
+.form-bg button {
+  border: none;
+  background-color: white;
+  height: 50px; /* Set a fixed height for the button */
+  cursor: pointer;
+}
+
+.form-bg button img {
+  width: 35px; /* Adjust the width as needed */
+  height: 35px; /* Adjust the height as needed */
+}
+
+.message-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: flex-start;
+  flex-grow: 1; /* Allow the container to grow and occupy remaining space */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.message-container .chat-message {
+  align-self: flex-end; /* Align right */
+}
+
+.message-container .chat-message.left {
+  align-self: flex-start; /* Align left */
+}
